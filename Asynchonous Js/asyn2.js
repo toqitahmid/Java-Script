@@ -33,3 +33,4 @@ function getCertificate(){
 enroll(function(){
     progress(getCertificate);
 });
+// console.log("hello");
