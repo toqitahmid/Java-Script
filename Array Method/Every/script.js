@@ -1,8 +1,7 @@
-let num = [4,6,8,10];
+let number = [10, 20, 30, 40, 50];
 
-function checkEvery(evenNum){
-    return evenNum > 2;
-}
+let isEleArr = number.find(num => (
+    num % 3 === 0
+))
 
-const evenNumCheck = num.every(checkEvery);
-console.log(evenNumCheck);
+console.log(isEleArr);

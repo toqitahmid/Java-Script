@@ -1,8 +1,5 @@
-let num = [1,2,3,4,5];
+let number = [10, 20, 30, 40, 50];
 
-function Some(number){
-    return number > 3;
-}
+const isEvenArr = number.some(num => (num % 7 === 0))
 
-const findSome = num.some(Some);
-console.log(findSome)
+console.log(isEvenArr);
