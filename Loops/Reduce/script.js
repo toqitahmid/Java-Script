@@ -1,6 +1,6 @@
-let nums = [1,2,3];
-function reducing (total, value,){
-    return total+value;
-}
-const reducedValue = nums.reduce(reducing);
-console.log(reducedValue);
+let numbers = [10, 20, 30, 40, 50];
+
+const total = numbers.reduce((sum, num) => {
+    return sum += num;
+})
+console.log(total );

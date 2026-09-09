@@ -1,8 +1,8 @@
-let num = [1, 2, 3, 4, 5];
+let numbers = [10, 20, 30, 40, 50];
 
-function filtering(value) {
-  return value > 2;
-}
+let evenNum = numbers.filter(num => (
+  num % 4 === 0
+))
 
-let filteringValue = num.filter(filtering);
-console.log(filteringValue);
+console.log(evenNum);
+console.log(Array.isArray(evenNum));

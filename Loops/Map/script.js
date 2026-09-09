@@ -1,8 +1,9 @@
-let num = [1,2,3];
+let numbers = [10, 20, 30, 40, 50];
 
-function mapping (value){
-    return value*2;
-}
+let showNum = numbers.map(num => {
+    if (num % 10 === 0) {
+        console.log(num)
+    }
+})
 
-let mappingValue = num.map(mapping);
-console.log(mappingValue)
+console.log(Array.isArray(showNum));

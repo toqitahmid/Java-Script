@@ -1,8 +1,8 @@
 
 const fruits = ["Banna","Apple","Orange"];
 
-fruits.forEach(showFruit);
+const fruitNames = fruits.forEach((fruit, idx) => {
+    console.log(fruit)
+});
 
-function showFruit(item){
-    console.log(item);
-}
+console.log(Array.isArray(fruitNames));
